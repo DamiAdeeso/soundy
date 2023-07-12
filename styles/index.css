@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-image:url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:110% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.item{
+    color:#ffffff;
+}
