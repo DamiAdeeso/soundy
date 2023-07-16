@@ -10,7 +10,18 @@ body{
     background-size:110% 100%;
     background-position: center;
     background-attachment: fixed;
+    color: #ffffff;
 }
-.item{
-    color:#ffffff;
+.navbar .navbar-brand{
+    color:white;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+  }
+  .discover-box{
+    height: 5em;
+    width: 5em;
+    background-color: #00000f;
+ 
+  }
+  
