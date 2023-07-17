@@ -4,13 +4,18 @@
     box-sizing:border-box;
 }
 body{
-    background-image:url("../assets/background.jpg");
+    /* background-image:url("../assets/background.jpg"); */
+    background-color:#2e313b;
     background-size: cover;
     background-repeat: no-repeat;
     background-size:110% 100%;
     background-position: center;
     background-attachment: fixed;
     color: #ffffff;
+    position:relative
+}
+header{
+    margin:0 6em;
 }
 .navbar .navbar-brand{
     color:white;
@@ -18,10 +23,44 @@ body{
 .navbar-light .navbar-nav .nav-link {
     color: white !important;
   }
-  .discover-box{
-    height: 5em;
-    width: 5em;
-    background-color: #00000f;
+  #explore-page{
+    margin:0 6em;
+  }
+  #explore-div{
+    /* padding: 0em 2em; */
+    margin-top: 5em;
+  }
+  #explore-stretch{
+    width:16em;
+    margin:3em 0em;
+  }
+  .explore-box{
+    height: 6em;
+    width: 6em;
+    font-size: .7em;
+    background-color: #3c4043;
  
   }
+  .grid-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .no-gutter-col {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  footer{
+    position: fixed;
+    bottom:0;
+    color:white;
+    width:100%;
+    height:4.5em;
+    padding: 1.5em 6em;
+    padding-right: 6em;
+    background-color: #3c4043;
+  }
+footer a{
+    color: #ffffff;
+}
   
