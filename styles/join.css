@@ -1,11 +1,25 @@
-#join-main{
-    height:75%;
+#join-main {
+    height: 79%;
 }
 
-#left-join{
-    padding:15% 0;
-    font-weight:100;
+#left-join {
+    padding: 15% 0;
+    font-weight: 100;
 }
-#left-join span{
-    color:#fa4480;
+
+#left-join span {
+    color: #fa4480;
+}
+
+#right-div {
+    background-color: #242424;
+    padding: 5% 6.5%;
+    height: 70%;
+    margin: 4% 4%;
+}
+
+.form-group .form-control {
+    background-color: #242424;
+    border: 2px solid #3c4043;
+    ;
 }

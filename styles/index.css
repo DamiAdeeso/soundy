@@ -29,12 +29,15 @@ body {
 
 header {
     width:100vw;
+
 }
 
 .navbar .navbar-brand {
     color: white;
 }
-
+.navbar-toggler{
+    background-color:#242424;
+}
 .navbar-toggler:focus,
 .navbar-toggler-icon:focus {
     outline: none;
@@ -49,7 +52,6 @@ header {
 
 .nav-bar .navbar-collapse{
     color: white;
-    background-color: #2e313b !important;
 }
 
 #explore-page {
