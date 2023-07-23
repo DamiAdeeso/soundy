@@ -33,7 +33,10 @@ header {
 }
 
 .navbar .navbar-brand {
-    color: white;
+    color: #ffffff;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color:#ffffff
 }
 .navbar-toggler{
     background-color:#242424;
@@ -70,7 +73,7 @@ header {
 .explore-box {
     width: 100px;
     font-size: .7em;
-    background-color: #3c4043;
+    background-color: #242424;
 
 }
 #explore-left{
@@ -94,7 +97,7 @@ footer {
     width:100vw;
     margin-top: auto;
     padding: 1.5em 6em 1.5em 3em;
-    background-color: #3c4043;
+    background-color: #242424;
 }
 
 footer a {

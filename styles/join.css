@@ -1,9 +1,9 @@
 #join-main {
-    height: 79%;
+    height: 67%;
 }
 
 #left-join {
-    padding: 15% 0;
+    padding: 12% 0;
     font-weight: 100;
 }
 
@@ -13,13 +13,17 @@
 
 #right-div {
     background-color: #242424;
-    padding: 5% 6.5%;
-    height: 70%;
-    margin: 4% 4%;
+    padding: 3% 6.5%;
+    padding-top: 4%;
+    margin:6% 4%;
+    margin-top:0 ;
 }
 
 .form-group .form-control {
     background-color: #242424;
     border: 2px solid #3c4043;
     ;
+}
+#live-div{
+    padding:8%;
 }
