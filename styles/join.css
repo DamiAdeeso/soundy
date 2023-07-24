@@ -8,13 +8,12 @@
 }
 
 #left-join span {
-    color: #fa4480;
+    color: #416ab3;
 }
 
 #right-div {
     background-color: #242424;
-    padding: 3% 6.5%;
-    padding-top: 4%;
+    padding: 2.5% 6.5%;
     margin:6% 4%;
     margin-top:0 ;
 }
@@ -22,8 +21,22 @@
 .form-group .form-control {
     background-color: #242424;
     border: 2px solid #3c4043;
+    color:#ffffff;
     ;
 }
+#main-section{
+
+}
+.center-divs{
+    margin-top:3%;
+}
 #live-div{
-    padding:8%;
+    padding:7%;
+}
+.btn{
+    background-color: #3abfef;
+}
+small a{
+    font-size: larger;
+    color:#416ab3;
 }
