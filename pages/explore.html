@@ -10,6 +10,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/cf21511ccf.js" crossorigin="anonymous"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/explore.css">
 </head>
@@ -17,26 +23,40 @@
 <body class="d-flex flex-column">
     <div id="content-wrapper" class="">
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a id="white" class="navbar-brand" href="#"><img src="../assets/logo.png" alt="" width="250px"></a>
+        <nav class="navbar navbar-expand-lg navbar-light py-0">
+          <a id="white" class="navbar-brand my-0 py-0" href="#">
+            <img src="../assets/logo.png" alt="" width="250px">
+        </a>
+          <a id = "search" class ="ml-auto mr-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           </a>
           <button class="navbar-toggler" type="button"  id= "hamburger-button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars" style = "color:#ffffff;"></i>
           </button>
+          
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto mr-5">
               <li class="nav-item active">
-                <a class="nav-link py-0 " href="./pages/explore.html">Explore <span class="sr-only">(current)</span></a>
+                <a class="nav-link py-0 " href="./explore.html">Explore <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link py-0" href="./pages/join-page.html">Join/Log In</a>
+                <a class="nav-link py-0" href="./join-page.html">Join/Log In</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
     </div>
-  <section id = "main-section">fgh</section>
+  
+  <section id = "main-section" class = "px-3 py-3">
+    <div id = "focus-div" class = "focus-div">
+        <h5>Focus</h5>
+        <div class = "genre-card rounded px-1 py-1">
+            <img  class ="img-thumbnail" src="../assets/album-1.jpg" alt="">
+            <p class ="mt-2 mb-1">Deep Focus</p>
+        </div>
+  </section>
     <footer class="d-flex flex-column align-items-center py-4" id = 'join'>
     <div class="d-flex align-items-center">
       <a href="" class="mr-4">
@@ -59,6 +79,30 @@
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+  spaceBetween:0,
+  slidesPerView: 4,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    // el: '.swiper-scrollbar',
+  },
+});
     </script>
   </body>
 
