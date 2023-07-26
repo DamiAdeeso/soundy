@@ -97,7 +97,7 @@ html, body {
   }
   
   footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100vw;
     background-color: #242424;

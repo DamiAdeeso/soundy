@@ -1,7 +1,11 @@
 #main-section{
     margin-top: -1em;
-    height: 100%;
     background-color: #1d1d1d;
+    height:100%;
+    width:100%
+}
+.category-div{
+  background-color: #262626;
 }
 .swiper {
     width: 100%;
@@ -9,7 +13,7 @@
   }
   .genre-card{
     /* height:40%; */
-    background-color:#242424 ;
+    background-color:#181818 ;
     width:12rem;
     height: 290px;
   }
@@ -24,3 +28,4 @@
   background-color: #1d1d1d;
   border: none;
  }
+ 
