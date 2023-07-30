@@ -26,19 +26,23 @@ html, body {
   }
   
   .navbar {
-    margin: 0;
+    /* margin: 2;  */
+    padding: 3 0%;
     font-size: large;
-    padding-top: 6px; /* Reduce top padding */
-    padding-bottom: 6px; /* Reduce bottom padding */
-    min-height: 50px; /* Adjust the minimum height */
+
+   
   }
-  
+  .navbar .navbar-brand{
+    padding:0;
+    margin: 0;
+  }
   header {
     width: 100vw;
   }
   
-  .navbar .navbar-brand >img:hover {
-    border: 2px solid #3abfef;
+  .navbar .navbar-brand >img {
+    /* border: 2px  #3abfef; */
+    margin:0;
   }
   
   .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
@@ -78,7 +82,7 @@ html, body {
     }
   }
   #explore-page {
-    margin-bottom: 100px;
+   
     /* padding :3em 0em; */
     width: 100vw;
  
