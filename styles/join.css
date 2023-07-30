@@ -1,5 +1,27 @@
+@keyframes stretchAnimation {
+    0% {
+        transform: translatey(160%);
+    }
+
+    80% {
+        transform: translatey(0%)
+    }
+
+    90% {
+        transform: translatey(5%)
+    }
+
+    100% {
+        transform: translatey(0%);
+    }
+}
+
+#main-section{
+    animation : stretchAnimation 1.5s ease-in-out forwards;
+}
 #join-main {
     height: 67%;
+    animation: stretchAnimation 1.5s ease-in-out forwards ;
 }
 
 #left-join {
@@ -14,29 +36,32 @@
 #right-div {
     background-color: #242424;
     padding: 2.5% 6.5%;
-    margin:6% 4%;
-    margin-top:0 ;
+    margin: 6% 4%;
+    margin-top: 0;
 }
 
 .form-group .form-control {
     background-color: #242424;
     border: 2px solid #3c4043;
-    color:#ffffff;
+    color: #ffffff;
     ;
 }
-#main-section{
 
+#main-section {}
+
+.center-divs {
+    margin-top: 3%;
 }
-.center-divs{
-    margin-top:3%;
+
+#live-div {
+    padding: 7%;
 }
-#live-div{
-    padding:7%;
-}
-.btn{
+
+.btn {
     background-color: #3abfef;
 }
-small a{
+
+small a {
     font-size: larger;
-    color:#416ab3;
+    color: #416ab3;
 }

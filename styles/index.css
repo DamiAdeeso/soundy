@@ -63,17 +63,40 @@ html, body {
   .nav-bar .navbar-collapse {
     color: white;
   }
-  
+  @keyframes stretchAnimation {
+    0% {
+      transform: translatey(160%);
+    }
+    80%{
+      transform:translatey(0%)
+    }
+    90%{
+      transform:translatey(5%)
+    }
+    100% {
+      transform: translatey(0%);
+    }
+  }
   #explore-page {
     margin-bottom: 100px;
     /* padding :3em 0em; */
     width: 100vw;
+ 
+    /* Set the overflow property to hidden to avoid content overflow during animation */
+    overflow: hidden;
+    /* Apply the animation */
+    animation: stretchAnimation 1.5s ease-in-out forwards ;
+   
   }
-  
   #explore-stretch {
     margin-top: 5%;
     margin-bottom: 5%;
+   
+    
   }
+
+  
+ 
   
   .explore-box {
     width: 100px;

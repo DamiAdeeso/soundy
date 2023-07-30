@@ -1,3 +1,11 @@
+@keyframes rollOutAnimation{
+  0%{
+    transform:translatex(160%);
+  }
+  100%{
+    transform:translatex(0%)
+  }
+}
 #main-section{
     background-color: #1d1d1d;
     height:100%;
@@ -9,6 +17,10 @@
   background-color: #262626;
   height: auto;
   box-sizing: border-box;
+}
+.animation-wrapper{
+  animation: rollOutAnimation 1.5s ease-in-out forwards;
+
 }
 .swiper {
     width: 100%;
