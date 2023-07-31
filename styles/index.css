@@ -3,138 +3,150 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-html{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #2e313b;
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10rem;
+  width: 100%;
+  min-height: 100%;
+}
+
+a {
+  color: #ffffff;
+}
+
+.navbar {
+
+  padding: 3 0%;
+  font-size: large;
+
+
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+}
+
+.navbar .navbar-brand>img {
+  /* border: 2px  #3abfef; */
+  margin: 0;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #3abfef;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  background-color: #242424;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 3px solid #3c4043;
+}
+
+.nav-bar .navbar-collapse {
+  color: white;
+}
+
+@keyframes stretchAnimation {
+  0% {
+    transform: translatey(160%);
   }
 
-  
-  body {
-    background-color: #2e313b;
-    color: #ffffff;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 10rem;
-    width: 100%;
-    min-height: 100%;
-  }
-  
-  .navbar {
-    /* margin: 2;  */
-    padding: 3 0%;
-    font-size: large;
-
-   
-  }
-  .navbar .navbar-brand{
-    padding:0;
-    margin: 0;
-  }
-  header {
-    width: 100vw;
-  }
-  
-  .navbar .navbar-brand >img {
-    /* border: 2px  #3abfef; */
-    margin:0;
-  }
-  
-  .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
-    color: #3abfef;
-  }
-  
-  .navbar .collapse .navbar-nav .nav-item .nav-link {
-    color: #ffffff;
-  }
-  
-  .navbar-toggler {
-    background-color: #242424;
-  }
-  
-  .navbar-toggler:focus,
-  .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 3px solid #3c4043;
-  }
-  
-  .nav-bar .navbar-collapse {
-    color: white;
-  }
-  @keyframes stretchAnimation {
-    0% {
-      transform: translatey(160%);
-    }
-    80%{
-      transform:translatey(0%)
-    }
-    90%{
-      transform:translatey(5%)
-    }
-    100% {
-      transform: translatey(0%);
-    }
-  }
-  #explore-page {
-   
-    /* padding :3em 0em; */
-    width: 100vw;
- 
-    /* Set the overflow property to hidden to avoid content overflow during animation */
-    overflow: hidden;
-    /* Apply the animation */
-    animation: stretchAnimation 1.5s ease-in-out forwards ;
-   
-  }
-  #explore-stretch {
-    margin-top: 5%;
-    margin-bottom: 5%;
-   
-    
+  80% {
+    transform: translatey(0%)
   }
 
-  
- 
-  
-  .explore-box {
-    width: 100px;
-    font-size: .7em;
-    background-color: #242424;
+  90% {
+    transform: translatey(5%)
   }
-  
-  #explore-left {
-    /* margin-left: 300px; */
+
+  100% {
+    transform: translatey(0%);
   }
-  
-  .grid-image {
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
-  }
-  
-  .no-gutter-col {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
-  footer {
-    position: absolute;
-    right:0;
-    left:0;
-    bottom: 0;
-    background-color: #242424;
-  }
-  
-  footer a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    color: #3abfef;
-    text-decoration: none;
-    text-shadow: 4px 4px 0px #010000, 2px 3px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
-  }
-  
+}
+
+#explore-page {
+
+  /* padding :3em 0em; */
+  width: 100vw;
+
+  /* Set the overflow property to hidden to avoid content overflow during animation */
+  overflow: hidden;
+  /* Apply the animation */
+  animation: stretchAnimation 1.5s ease-in-out forwards;
+
+}
+
+#explore-stretch {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+
+}
+
+
+
+
+.explore-box {
+  width: 100px;
+  font-size: .7em;
+  background-color: #242424;
+}
+
+#explore-left {
+  /* margin-left: 300px; */
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.no-gutter-col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #242424;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3abfef;
+  text-decoration: none;
+  text-shadow: 4px 4px 0px #010000, 2px 3px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
+}
