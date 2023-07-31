@@ -50,20 +50,4 @@
  #playlist-div{
   box-sizing: border-box;
  }
- footer {
-  position: relative;
-  bottom: 0;
-  width: 100vw;
-  background-color: #242424;
-}
-
-footer a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #3abfef;
-  text-decoration: none;
-  text-shadow: 4px 4px 0px #010000, 2px 3px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
-}
+ 
